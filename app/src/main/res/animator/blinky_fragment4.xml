@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+    <objectAnimator
+        android:duration="@android:integer/config_longAnimTime"
+        android:propertyName="backgroundColor"
+        android:valueFrom="@android:color/holo_blue_dark"
+        android:valueTo="@android:color/holo_purple"
+        />
+
+
+</set>

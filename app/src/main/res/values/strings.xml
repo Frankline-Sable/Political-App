@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Political App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_marque">Like this app? Please consider rating us</string>
+    <string name="action_start">Getting Started</string>
+    <string name="action_tips">General tips</string>
+    <string name="cred_choice">Sign in or sign up</string>
+    <string name="cred_no_choice">Sign in later</string>
+    <string name="proceed">Proceed</string>
+    <string name="main_subtitle">Welcome to the life of politics</string>
+    <string name="nav_title">Visit our website</string>
+    <string name="app_web">franklinesable.blogspot.co.ke</string>
+    <string name="gallery">Gallery</string>
+    <string name="erase">Erase</string>
+    <string name="about">About</string>
+    <string name="tools">Tools</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="donate">Donate</string>
+    <string name="proud">Proudly kenyan!</string>
+    <string name="forgot_pass">Enter the email address you registered with, and we will send you a reset password link.</string>
+    <string name="res_pass">Reset password</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="action_sign_up">or Sign up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_forgot_password">Forgot password</string>
+    <string name="title_activity_register">Sign up</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="error_invalid_password_match">Password do not match</string>
+    <string name="error_invalid_general">Error field empty!</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="username">UserName (Email)</string>
+    <string name="age">Age</string>
+    <string name="signIn">Sign in</string>
+    <string name="quit">Ending Session…</string>
+    <string name="action_sign_up_short">Sign up</string>
+    <string name="welcome"><u>Welcome! Lets Get Started!</u></string>
+    <string name="title_activity_main__boss_class">Home</string>
+    <string name="title_activity_account__settings">Account settings</string>
+    <string name="constituency">constituency</string>
+    <string name="remember_my_choice">Remember my choice</string>
+    <string name="checkDescri">click if you don\'t want to see this dialog again</string>
+    <string name="create_account">Create Account</string>
+    <string name="f_Name">First Name</string>
+    <string name="home_origin">Home (Origin)</string>
+
+    <string-array name="gender_array">
+
+        <item>Male</item>
+        <item>Female</item>
+        <item>Both</item>
+    </string-array>
+    <string name="title_activity_feeds_">Today\'s Feeds</string>
+    <string name="title_activity_about_app">AboutApp</string>
+    <string name="title_activity_events">EventsActivity</string>
+    <string name="title_activity_add__event">Add_Event</string>
+    <string name="settings_description">All your account settings are here</string>
+    <string name="settings_head">Welcome to account settings</string>
+    <string name="testDate">08</string>
+    <string name="testDay">Fri</string>
+    <string name="testTime">10:45AM</string>
+    <string name="type_ofEvent">Event notification icon</string>
+    <string name="test_title">Pickup appointment</string>
+    <string name="ticker_text"> %1$d New Event(s) available</string>
+    <string name="ticker_text_feeds"> %1$d New Feed(s) available</string>
+    <string name="ticker_text_notifications"> %1$d New Notification(s) available</string>
+    <string name="title_and_description"> Political App: %1$s</string>
+    <string name="wel">Welcome %1$s</string>
+    <string name="user_table">user_table</string>
+    <string name="userAccount">%1$s\'s Account</string>
+    <string name="col">\@Cool</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tab_material">TabActivityMaterial</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="wel_txt">Welcome, dear User!</string>
+    <string name="additionalTxt">See what this app can do for you</string>
+    <string name="events">events</string>
+    <string name="courthouse">courthouse</string>
+    <string name="group">group</string>
+    <string name="voter_hand">voter</string>
+    <string name="cloud">cloud</string>
+    <string name="parliamnet">parliament building</string>
+    <string name="vote_box">Vote Box</string>
+    <string name="start">Lets start!</string>
+    <string name="additionalStart">If you want to read more about the Political App, have a look at the user guide</string>
+    <string name="your_App">Application like you</string>
+    <string name="customize">Adjust application appearance to match your style with color schemes and themes</string>
+    <string name="elec_coverage">Elections Coverage</string>
+    <string name="getUpdates">Get the latest updates regarding the upcoming elections</string>
+    <string name="participate_Forum">Participate in forums and discussions with your fellow friends</string>
+    <string name="forums"><![CDATA[Forums & discussions]]></string>
+    <string name="title_activity_log_in">LogInActivity</string>
+    <string name="gen_tips">General Tips</string>
+    <string name="app_sign_in">Political App Sign-in</string>
+    <string name="quickstart">Quickstart</string>
+    <string name="signed_out">Signed out</string>
+    <string name="sign_in">Sign in</string>
+    <string name="title_activity_front__end__activities">Front_EndActivity</string>
+    <string name="exit">Quit</string>
+    <string name="recoverAccount">Recover your Account</string>
+
+    <string-array name="front_drawer_array">
+        <item>Wipe Data</item>
+        <item>Tools</item>
+        <item>Help</item>
+        <item>About</item>
+    </string-array>
+    <string name="title_activity_front__end">Front_EndActivity</string>
+    <string name="license_accept">I accept the licence agreement</string>
+    <string name="license_warning">You need to accept the End User License Agreement</string>
+    <string name="license_error">Error reading the licence</string>
+    <string name="done2">Done</string>
+    <string name="ntw_guide">Click the icon on the right to visit your mobile network settings</string>
+    <string name="internet_warning">An internet connection is required to proceed, \ncontinue anyway?</string>
+    <string name="later">NO LATER</string>
+    <string name="sure">SURE</string>
+    <string name="exiting">Press back once more to exit</string>
+    <string name="account_error">There is a problem with your account</string>
+    <string name="fetch_info">Fetching account preferences and data</string>
+    <string name="login_success">Login successful</string>
+    <string name="account_blind">Account does not exist</string>
+    <string name="server_down">Server is temporary down: Error</string>
+    <string name="sign_up">Sign up now?</string>
+    <string name="yes">Yes</string>
+    <string name="auth">Authenticating user...</string>
+    <string name="internet_error">"There seems to be no internet"</string>
+    <string name="open_settings">Goto Settings</string>
+    <string name="account_dupli">Account already exist!</string>
+    <string name="frgt_pass">Forgot password?</string>
+    <string name="account_sucess">"Account Successfully Created "</string>
+    <string name="date_prob">There is a problem setting the date</string>
+    <string name="title_activity_manage__event">Add Event</string>
+    <string name="sort_by">Sort by</string>
+    <string name="by_title">By title</string>
+    <string name="sort_status">Sort by status</string>
+    <string name="sort_date">Sort by date</string>
+    <string name="default_year">2017</string>
+    <string name="my_events">My Events</string>
+    <string name="welcome_to_the">Welcome to the</string>
+    <string name="menu_screen">Welcome</string>
+    <string name="default_note_text">7</string>
+    <string name="feed_image">Feed image</string>
+    <string name="trial_text_feed">To create a card with a shadow, use the card_view:cardElevation attribute. CardView uses real elevation and dynamic shadows on Android 5.0</string>
+    <string name="view_more">View More</string>
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="load_notes">Loading notifications...</string>
+    <string name="search_hint">Search for what?</string>
+    <string name="title_activity_view_notifications">New notification</string>
+    <string name="loading_notes">Loading notes</string>
+    <string name="versionLabel">Version %1$s \nMade by</string>
+
+
+</resources>

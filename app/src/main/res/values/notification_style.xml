@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="NotifyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary_color_notify</item>
+        <item name="colorPrimaryDark">@color/dark_primary_color_notify</item>
+        <item name="colorAccent">@color/accent_color_notify</item>
+        <item name="android:textColorSecondary">@color/secondary_text_notify</item>
+        <item name="android:listDivider">@color/divider_color_notify</item>
+
+    </style>
+
+    <style name="NotifyTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="NotifyTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="NotifyTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

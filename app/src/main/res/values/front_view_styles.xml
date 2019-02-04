@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary_fv</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_fv</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="colorButtonNormal">@color/colorButton_fv</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:windowBackground">@color/background_front</item>
+
+    </style>
+
+    <style name="AppTheme2.Theme" parent="AppTheme2">
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+    <style name="AppTheme2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme2.Dark" parent="ThemeOverlay.AppCompat.Dark"/>
+    <style name="cred_dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <item name="colorAccent">@color/colorPrimary_fv</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@color/app_accent1</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:tint">@color/colorPrimary_fv</item>
+    </style>
+
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+    <item name="background">@color/colorAccent</item>
+    </style>
+</resources>

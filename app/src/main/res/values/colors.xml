@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_t">#733e75</color>
+
+    <color name="event_dialog">@color/colorPrimary_fv</color>
+    <color name="colorPrimary_fv">#900c3f</color>
+    <color name="colorPrimaryDark_fv">#760a33</color>
+    <color name="colorAccent_fv">#ff5733</color>
+    <color name="colorButton_fv">#a30441</color>
+    <color name="nav_back">#505050</color>
+    <color name="nav_item_back">#666666</color>
+    <color name="accent_dark">#581845</color>
+    <color name="accent_tint">#1E90FF</color>
+    <color name="boss_grad_color">#CD607E</color>
+    <color name="app_accent1">#009399</color>
+    <color name="front_back">#C70039</color>
+    <color name="background_front">#d4125d</color>
+    <color name="time">#999999</color>
+    <color name="subtitle">#222222</color>
+    <color name="tertiary_tint">#008f95</color>
+
+    <color name="purple_button">#6B3FA0</color>
+    <color name="green_button">#84DE02</color>
+    <color name="blue_button">#009DC4</color>
+    <color name="yellow_button">#FFAA1D</color>
+    <color name="brown_button">#87421F</color>
+    <color name="red_button">#FD0E35</color>
+    <color name="orange_button">#FF6037</color>
+    <color name="transparent">@android:color/transparent</color>
+
+
+    <color name="wealthsource">#757575</color>
+    <color name="year">#949494</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#FCFCFC</color>
+    <color name="row_list_end_color">#FCFCFC</color>
+    <color name="row_list_hover_start_color">#EDF0F2</color>
+    <color name="row_list_hover_end_color">#EDF0F2</color>
+
+    <!--events colors-->
+    <color name="pendingEvent">#299617</color>
+    <color name="completedEvent">#FD0E35</color>
+    <color name="internet_event">#ffbf00</color>
+
+
+    <color name="colorPrimary22">#125688</color>
+    <color name="colorPrimaryDark22">#125688</color>
+    <color name="textColorPrimary22">#FFFFFF</color>
+    <color name="windowBackground22">#FFFFFF</color>
+    <color name="navigationBarColor22">#000000</color>
+    <color name="colorAccent22">#c8e8ff</color>
+
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <color name="dot_light_screen1">#7ED4E6</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#eeccff</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="dot_light_screen5">#b1f3a5</color>
+
+    <color name="dot_dark_screen1">#0066CC</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#b31aff</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_dark_screen5">#1f700f</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+    
+    <color name="tint_one">#581845</color>
+    <color name="tint_two">#900c3f</color>
+    <color name="tint_three">#c70039</color>
+    <color name="tint_four">#ff5733</color>
+    <color name="tint_five">#ffc305</color>
+    <color name="teal">#009688</color>
+    <color name="black">#212121</color>
+    <color name="purple">#673ab7</color>
+
+    <!--Log in color palette-->
+
+
+    <!--Events color palette-->
+    <color name="dark_primary_color_ev">#0489d1</color>
+    <color name="primary_color_ev">#05a9f4</color>
+    <color name="light_primary_color_ev">#b3e5fc</color>
+    <color name="text_icons_ev">#ffffff</color>
+    <color name="accent_color_ev">#029789</color>
+    <color name="primary_text_ev">#212121</color>
+    <color name="secondary_text_ev">#767676</color>
+    <color name="divider_color_ev">#bdbdbd</color>
+
+    <!--Main Boss color palette-->
+    <color name="dark_primary_color_boss">#900c3f</color>
+    <color name="primary_color_boss">#c21a5c</color>
+    <color name="light_primary_color_boss">#f8bbd0</color>
+    <color name="text_icons_boss">#ffffff</color>
+    <color name="accent_color_boss">#029789</color>
+    <color name="primary_text_boss">#212121</color>
+    <color name="secondary_text_boss">#757575</color>
+    <color name="divider_color_boss">#bdbdbd</color>
+
+    <!--Feeds color palette-->
+    <color name="dark_primary_color_feeds">#1b77d2</color>
+    <color name="primary_color_feeds">#2397f3</color>
+    <color name="light_primary_color_feeds">#bbdefb</color>
+    <color name="text_icons_feeds">#ffffff</color>
+    <color name="accent_color_feeds">#617e8c</color>
+    <color name="primary_text_feeds">#212121</color>
+    <color name="secondary_text_feeds">#757575</color>
+    <color name="divider_color_feeds">#bdbdbd</color>
+
+    <!--Notifications color palette-->
+    <color name="dark_primary_color_notify">#c21a5c</color>
+    <color name="primary_color_notify">#e92064</color>
+    <color name="light_primary_color_notify">#f8bbd0</color>
+    <color name="text_icons_notify">#ffffff</color>
+    <color name="accent_color_notify">#4052b5</color>
+    <color name="primary_text_notify">#212121</color>
+    <color name="secondary_text_notify">#757575</color>
+    <color name="divider_color_notify">#bdbdbd</color>
+
+
+</resources>

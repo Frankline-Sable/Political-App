@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_events"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.maseno.franklinesable.politicalapp.events_manager.EventsActivity"
+    tools:showIn="@layout/activity_events">
+
+    <ListView
+        android:id="@+id/eventsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/divider_color_ev"
+        android:dividerHeight="1dp"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/cardview_events" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:id="@+id/emptyView"
+        android:gravity="center">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/activity_horizontal_margin"
+            android:drawableRight="@drawable/emo_im_lips_are_sealed"
+            android:text="Oops... no entries"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@android:color/darker_gray"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

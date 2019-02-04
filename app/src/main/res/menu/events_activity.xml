@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_search"
+        android:title="@android:string/search_go"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item android:title="@string/sort_by">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sortTitle"
+                    android:icon="@drawable/autograph_52px"
+                    android:title="@string/by_title" />
+                <item
+                    android:id="@+id/sortDate"
+                    android:checked="true"
+                    android:icon="@drawable/calendar_48px"
+                    android:title="@string/sort_date" />
+                <item
+                    android:id="@+id/sortStatus"
+                    android:icon="@drawable/unknown_status_64px"
+                    android:title="@string/sort_status" />
+            </group>
+        </menu>
+    </item>
+</menu>

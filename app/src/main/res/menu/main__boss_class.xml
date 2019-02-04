@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Change view"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_view">
+        <menu>
+            <group android:checkableBehavior="single"
+                >
+                <item android:title="Linear view"
+                    android:id="@+id/linearLayout"
+                    android:icon="@drawable/ic_list_layout"
+                    android:orderInCategory="100"
+                    />
+                <item android:title="Grid view"
+                    android:id="@+id/gridLayout"
+                    android:icon="@drawable/ic_grid_layout"
+                    android:checked="true"
+                    android:orderInCategory="101"/>
+                <item android:title="Staggered view"
+                    android:id="@+id/staggeredLayout"
+                    android:orderInCategory="102"
+                    android:icon="@drawable/ic_staggered_layout"/>
+
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"/>
+
+</menu>

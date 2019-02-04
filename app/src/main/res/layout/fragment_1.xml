@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="com.maseno.franklinesable.politicalapp.welcome_package.Fragment_1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/voting_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/voting_hand"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/vote_box"
+        android:src="@drawable/votingbox" />
+
+    <ImageView
+        android:id="@+id/voting_hand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/viewMore"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/viewMore"
+        android:layout_marginTop="63dp"
+        android:contentDescription="@string/voter_hand"
+        android:src="@drawable/votehand" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/voting_box"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appName"
+        android:layout_centerHorizontal="true"
+        android:text="@string/wel_txt"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/viewMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:text="@string/additionalTxt" />
+
+    <ImageView
+        android:id="@+id/cloud_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/voting_box"
+        android:layout_alignStart="@+id/voting_box"
+        android:layout_alignTop="@+id/voting_hand"
+        android:contentDescription="@string/cloud"
+        app:srcCompat="@drawable/ic_cloud_black_24dp" />
+
+    <ImageView
+        android:id="@+id/event_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/voting_box"
+        android:layout_alignRight="@+id/voting_box"
+        android:layout_alignTop="@+id/voting_hand"
+        android:contentDescription="@string/vote_box"
+        app:srcCompat="@drawable/ic_event_note_black_24dp" />
+
+    <ImageView
+        android:id="@+id/parliament_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/event_img"
+        android:layout_toEndOf="@+id/voting_hand"
+        android:layout_toRightOf="@+id/voting_hand"
+        android:contentDescription="@string/parliamnet"
+        android:src="@drawable/ic_parliament2" />
+
+    <ImageView
+        android:id="@+id/people_group_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/parliament_img"
+        android:layout_toLeftOf="@+id/voting_hand"
+        android:layout_toStartOf="@+id/voting_hand"
+        android:alpha="0.3"
+        android:contentDescription="@string/group"
+        android:src="@drawable/ic_group_users2"
+        android:tint="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/court_house_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/people_group_img"
+        android:layout_marginTop="18dp"
+        android:layout_toLeftOf="@+id/voting_box"
+        android:layout_toStartOf="@+id/voting_box"
+        android:contentDescription="@string/courthouse"
+        android:src="@drawable/ic_court_house2"
+        android:tint="@android:color/darker_gray"
+        />
+
+    <ImageView
+        android:id="@+id/forum_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/parliament_img"
+        android:layout_marginTop="18dp"
+        android:layout_toEndOf="@+id/voting_box"
+        android:layout_toRightOf="@+id/voting_box"
+        android:contentDescription="@string/events"
+        app:srcCompat="@drawable/ic_forum_black_24dp"
+        android:tint="@android:color/holo_red_light"/>
+
+</RelativeLayout>

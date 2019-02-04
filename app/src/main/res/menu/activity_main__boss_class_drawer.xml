@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/nav_fav"
+            android:title="Favourites"
+            android:icon="@drawable/outline_star_52px"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="@string/gallery"
+            android:icon="@drawable/ic_menu_gallery"/>
+
+    </group>
+
+    <item android:title="STATISTICS">
+        <menu>
+            <item
+                android:id="@+id/nav_stats"
+                android:title="Stats"
+                android:icon="@drawable/statistics_48px"/>
+            <item
+                android:id="@+id/nav_data_usage"
+                android:title="Data and Storage Use"
+                android:icon="@drawable/ic_swap_horiz_black_24dp"/>
+        </menu>
+    </item>
+    <item android:title="SOCIAL">
+        <menu>
+            <item
+                android:title="Rate"
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/thumbs_up_"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+    <item android:title="MORE">
+        <menu>
+            <item
+                android:title="Preferences"
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_tune_black_24dp"/>
+            <item
+                android:id="@+id/nav_help"
+                android:title="Help"
+                android:icon="@drawable/ic_help_outline_black_24dp"/>
+            <item
+                android:id="@+id/nav_donate"
+                android:icon="@drawable/donate_64px"
+                android:title="@string/donate" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="About"
+                android:icon="@drawable/ic_info_outline_black_24dp"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_add__event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.maseno.franklinesable.politicalapp.events_manager.Add_Event"
+    tools:showIn="@layout/activity_add__event"
+    android:background="@drawable/feed_back">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event\'s name"
+        android:textColor="@color/dark_primary_color_ev"
+        />
+
+        <EditText
+            android:layout_below="@+id/titleView"
+            android:id="@+id/titleField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Description"
+            android:ems="10"
+            android:singleLine="false"
+            app:theme="@style/EventsTheme.textfield"
+            android:selectAllOnFocus="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+            />
+
+
+    <CheckBox
+        app:theme="@style/EventsTheme.checkbox"
+        android:id="@+id/descCheckbox"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleField"
+        android:text="Details"
+        android:onClick="onDescCheckboxClicked"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descCheckbox"
+       >
+
+        <AutoCompleteTextView
+
+            android:hint="Details (optional)"
+            android:visibility="gone"
+            android:id="@+id/bodyField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:theme="@style/EventsTheme.textfield"
+            android:lines="3"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <CheckBox
+        app:theme="@style/EventsTheme.checkbox"
+        android:id="@+id/dateCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/body"
+        android:layout_marginTop="25dp"
+        android:text="Set Date"
+        android:onClick="onDateCheckboxClicked"
+        />
+
+    <CheckBox
+        app:theme="@style/EventsTheme.checkbox"
+        android:id="@+id/timeCheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/dateCheckbox"
+        android:layout_marginTop="12dp"
+        android:text="Set Time"
+        android:onClick="onTimeCheckboxClicked"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/timeCheckbox"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/purple_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:onClick="eventColor"
+            android:src="@drawable/ic_color_button_on"
+            android:tint="#6B3FA0" />
+
+        <ImageView
+            android:id="@+id/green_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:onClick="eventColor"
+            android:src="@drawable/ic_color_button_on"
+            android:tint="#84DE02" />
+
+        <ImageView
+            android:id="@+id/blue_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:onClick="eventColor"
+            android:src="@drawable/ic_color_button_on"
+            android:tint="#009DC4" />
+
+        <ImageView
+            android:id="@+id/yellow_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:onClick="eventColor"
+            android:src="@drawable/ic_color_button_on"
+            android:tint="#FFAA1D" />
+
+        <ImageView
+            android:id="@+id/brown_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:onClick="eventColor"
+            android:src="@drawable/ic_color_button_on"
+            android:tint="#87421F" />
+
+
+        <ImageView
+            android:id="@+id/red_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:onClick="eventColor"
+            android:src="@drawable/ic_color_button_on"
+            android:tint="#FD0E35" />
+
+        <ImageView
+            android:id="@+id/orange_button"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:onClick="eventColor"
+            android:src="@drawable/ic_color_button_on"
+            android:tint="#FF6037" />
+
+    </LinearLayout>
+
+</RelativeLayout>

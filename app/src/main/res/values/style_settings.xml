@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme4" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary_fv</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_fv</item>
+        <item name="colorAccent">@color/accent_dark</item>
+
+       <!-- <item name="android:tint">@color/boss_grad_color</item>-->
+        <item name="colorButtonNormal">@color/colorButton_fv</item>
+
+
+
+    </style>
+
+    <style name="AppTheme4.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme4.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme4.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary_fv</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_fv</item>
+        <item name="colorAccent">@color/colorAccent_fv</item>
+        <item name="colorButtonNormal">@color/colorButton_fv</item>
+        <item name="android:textColor">@android:color/holo_orange_dark</item>
+
+        <item name="android:textColorPrimary">@android:color/white</item>
+
+
+    </style>
+
+    <style name="AppTheme3.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme3.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme3.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="BossNavBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/nav_back</item>
+
+    </style>
+</resources>
